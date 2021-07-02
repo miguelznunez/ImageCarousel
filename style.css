@@ -1,3 +1,7 @@
+body{
+  overflow-y: hidden;
+}
+
 .container{
   width: 70%;
   margin: auto;
