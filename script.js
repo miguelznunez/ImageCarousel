@@ -1,8 +1,6 @@
 var index = 0;
 
-show_slide(index);
-
-function show_slide(i){
+show_slide = (i) => {
   //increment/decrement slide index
   index += i;
 
@@ -34,3 +32,4 @@ function show_slide(i){
 
 }
 
+window.addEventListener("onload", show_slide(index));
